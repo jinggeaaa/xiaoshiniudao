@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.TilePane?>
+<?import com.sun.javafx.scene.control.skin.SplitPaneSkin.Content?>
+<TilePane>Proxy pattern</TilePane>
+<Content>
+为其他对象提供一种代理以控制对这个(对象)的访问。
+在某些情况下，一个对象不适合或者不能直接引用另一个对象，而代理对象可以在客户端和目标对象之间起到中介的作用。
+
+<TilePane>static proxy  静态代理在使用时,需要定义接口或者父类,被代理对象与代理对象一起实现相同的接口或者是继承相同父类.</TilePane>
+<TilePane>dynamic proxy
+    1.代理对象,不需要实现接口
+    2.代理对象的生成,是利用JDK的API,动态的在内存中构建代理对象(需要我们指定创建代理对象/目标对象实现的接口的类型)
+    3.动态代理也叫做:JDK代理,接口代理
+</TilePane>
+</Content>
