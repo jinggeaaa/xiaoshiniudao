@@ -24,6 +24,8 @@ public class MediaAdater implements  MediaPlayer
             advancedMediaPlayer.playVlc(name);
         }else{
             advancedMediaPlayer.playMp4(name);
+            System.out.println("you are very  good");
+
         }
     }
 }
