@@ -15,5 +15,6 @@ public class AdapterDemo {
         audioPlayer.play("vlc","only you.vlc");
         audioPlayer.play("bhd","only you.bhd");
         System.out.println(" git ti jiao hou de di yi ci ti  jiao ");
+         System.out.println(" 三次修改 AdapterDemo ");
     }
 }
